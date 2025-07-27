@@ -113,9 +113,6 @@ export default function PropertyTypes() {
          <div className="container mx-auto px-4">
             <div className="text-center mb-12">
                <h2 className="text-4xl font-bold text-navy-800 mb-4">Property Types</h2>
-               <p className="text-gray-600 max-w-3xl mx-auto">
-               Discover a place where comfort meets convenience. Whether you're looking for a spacious house in a peaceful neighborhood or a modern apartment close to top schools and amenities, we help you find the ideal home tailored to your family's needs. Start your journey to a better living space today!
-               </p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
