@@ -7,25 +7,19 @@ import Footer from "@/components/footer"
 export default function AboutPage() {
    const teamMembers = [
       {
-         name: "Md. Raiham Uddin",
-         role: "Founder & Managing Director",
-         image: "/images/team-1.jpg",
-         description: "5+ years of experience, expert in luxury and residential properties"
-      },
-      {
-         name: "Farzana Akter",
+         name: "Yeamin Ali Anu",
          role: "Senior Property Advisor",
          image: "/images/team-2.jpg",
          description: "Skilled in residential sales and investment in Dhaka and Rajshahi"
       },
       {
-         name: "Tanvir Hasan",
+         name: "Tamim Ahmed",
          role: "Marketing Director",
          image: "/images/team-3.jpg",
          description: "Expert in digital marketing and property promotion"
       },
       {
-         name: "Adv. Nusrat Jahan",
+         name: "Mst Sadia Akter Mon",
          role: "Legal Advisor",
          image: "/images/team-4.jpg",
          description: "Handles all legal aspects of property transactions with expertise"
@@ -163,7 +157,7 @@ export default function AboutPage() {
                   </p>
                </div>
                
-               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                   {teamMembers.map((member, index) => (
                      <div key={index} className="text-center group">
                         <div className="relative w-48 h-48 mx-auto mb-4 overflow-hidden rounded-full">
